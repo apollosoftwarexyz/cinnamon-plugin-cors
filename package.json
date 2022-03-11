@@ -1,0 +1,27 @@
+{
+  "name": "@apollosoftwarexyz/cinnamon-plugin-cors",
+  "version": "1.0.0",
+  "author": "Apollo Software Limited",
+  "description": "A Cinnamon plugin that simplifies setting Cross-Origin-Resource-Sharing (CORS) policies.",
+  "license": "MIT",
+  "main": "dist/main.js",
+  "types": "types/main.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apollosoftwarexyz/cinnamon-plugin-cors.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "version:patch": "yarn version patch",
+    "publish": "yarn npm publish --access public"
+  },
+  "devDependencies": {
+    "@apollosoftwarexyz/cinnamon": "^0.0.36",
+    "@types/koa": "^2.13.4",
+    "@types/node": "^17.0.21"
+  },
+  "peerDependencies": {
+    "@apollosoftwarexyz/cinnamon": "^0.0.x"
+  },
+  "packageManager": "yarn@3.2.0"
+}
